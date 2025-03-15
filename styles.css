@@ -1,0 +1,118 @@
+<style>
+        *{
+            font-family:'Poppins','sans-serif';
+            margin:0;
+            padding: 0;
+        }
+        body{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(255, 255, 255);
+            height: 100vh;
+            
+        }
+        .outbox{
+            display:flex;
+            justify-content:flex-start;
+            background-color: rgb(255, 255, 255);
+            align-items: center;
+            width:auto;
+            height:auto; 
+            border-radius: 5px;
+            box-shadow:2px 2px 2px 3px rgb(213, 212, 212) ; 
+            padding:20px;
+        }
+        .input-box{
+            width:300px;
+            height:33px;
+            padding:8px;
+            margin:12px;
+            border-radius: 5px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-width:0.1px;  
+            margin-left:-2px;
+        }
+        .sign-btn{
+            width:300px;
+            height: 45px;
+            padding:12px;
+            border-radius: 25px;
+            margin-top:10px;
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            background-color: rgb(20, 20, 194);
+            border:none;
+            color:white;
+            cursor: pointer;
+        }
+        .apple-btn{
+            width:300px;
+            height: 45px;
+            padding:12px;
+            border-radius: 25px;
+            margin-top: 30px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            border-width:thin;
+            font-weight: 600;
+            color:rgb(38, 39, 39);
+            margin-bottom: 20px;
+            background-color: white;
+            cursor: pointer;
+            margin-top: 20px;
+    
+        }
+        .sign-header{
+            font-weight: bold;
+            font-size: 32px;
+            padding: 6px;
+            margin-top:20px;
+        }
+        .hd-line{
+            font-size:15px;
+            padding: 2px;  
+            margin-left:0px;
+        }
+        .fd-line{
+            font-size:15px;
+            padding: 2px;  
+            margin:30px;
+            font-weight: bold;
+            color: blue;
+            margin-top: 9px;
+            margin-left: -1px;
+        }
+        .apple-icon{
+            margin-right: 15px;
+            height:20px;
+            width:20px;
+        }
+        .linkedin-text{
+            text-align: center;
+            font-size:14px;
+            margin-bottom: 12px;
+        }
+        .break-line{
+            display: block;
+            border:none;
+            border-top: 1px solid rgb(134, 130, 130);
+            margin-top:20px;
+            width:50%;
+        } 
+        .line-container{
+            display: flex;
+            justify-content: center;
+        } 
+        .or-line{
+            margin:0;
+            padding: 0 5px;
+            margin-bottom:auto;
+        }
+    </style>
